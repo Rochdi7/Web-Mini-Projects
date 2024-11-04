@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001F3F;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background: url(rm378-04.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    position: relative;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    width: 450px;
+    color: white;
+    border-radius: 30px;
+    padding: 30px 40px;
+}
+.container:hover{
+    box-shadow: 0 0 10px ;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+
+}
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 20px 0;
+}
+.input-box input{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border: 2px solid #6A9AB0;
+    background: transparent;
+    color: white;
+    padding: 20px 45px 20px 10px;
+
+
+}
+.input-box input::placeholder{
+    color: white;
+
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.container .remember-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16.5px;   
+}
+
+.remember-box label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.remember-box a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-box a:hover{
+    text-decoration: underline;
+    color: #3A6D8C;
+    font: bolder;
+}
+
+.container .btn-submit{
+    margin-top: 20px;
+    background: #fff;
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600px;
+    color: #333;
+
+}
+.btn-submit:hover{
+    color: white;
+    font-weight: bolder;    
+background-color: #3A6D8C;    
+    }
+.container .register-link{
+    margin-top: 20px;
+    text-align: center;
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+}
+.register-link a{
+font-weight: bolder;    
+text-decoration: none;
+
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+    color: #3A6D8C;
+}
