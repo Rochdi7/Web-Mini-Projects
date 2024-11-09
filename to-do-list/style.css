@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 30px;
+}
+
+.form{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.input{
+    padding: 20px;
+    width: 450px;
+    border: none;
+    border-radius: 10px;
+    color: orangered;
+    font-size: 19px;
+}
+.add{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+.add:hover{
+    box-shadow: 0 12px 16px 0 rgba(252, 73, 2, 0.87),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.tasks{
+    margin: 20px;
+
+
+}
+.task{
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tasks{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+}
+.task-done{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+.del{
+    background-color: red;
+    border: none;
+    padding: 3px;
+    border-radius: 6px;
+    color: white;
+    width: 55px;
+    text-align: center;
+}
+.del:hover{
+    box-shadow: 0 12px 16px 0 rgb(255, 0, 0),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.task:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.089),0 17px 50px 0 rgba(0, 0, 0, 0.075);
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
+.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
