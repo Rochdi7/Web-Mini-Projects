@@ -22,3 +22,10 @@ A sleek and responsive FAQ section implemented with HTML and CSS. This project d
   - Smooth transitions for height and padding.
 
 ## 📂 File Structure
+index.html
+style.css
+
+## 📖 Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rochdi7/Web-Mini-Projects.git
