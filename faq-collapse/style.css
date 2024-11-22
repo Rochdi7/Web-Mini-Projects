@@ -10,6 +10,12 @@
 body{
     background: #e3edf7;
 }
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
 .Collapses{
     margin: 60px auto;
     width: 600px;
