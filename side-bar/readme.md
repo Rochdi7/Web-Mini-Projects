@@ -1,5 +1,3 @@
-# Create README.md
-cat << 'EOF' > README.md
 # Sidebar Mini Project
 
 This mini-project demonstrates a responsive sidebar with a toggle feature, designed with custom CSS variables for light and dark themes. The sidebar uses a smooth transition effect, adapting to different screen sizes and user preferences.

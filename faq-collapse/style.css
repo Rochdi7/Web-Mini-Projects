@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background: #e3edf7;
+}
+.Collapses{
+    margin: 60px auto;
+    width: 600px;
+}
+.Collapses li{
+    list-style: none;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.Collapses li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+label::before{
+    content: '+';
+    font-size: 1.2rem; 
+    font-weight: 600;
+    margin-right: 10px;    
+}
+input[type="radio"]{
+    display: none;
+}
+.collapse-content{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 20px;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ,padding 0.5s ;
+}
+.Collapses input[type="radio"]:checked + label + .collapse-content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
