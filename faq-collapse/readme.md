@@ -28,4 +28,8 @@ style.css
 ## 📖 Usage
 1. Clone the repository:
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/Rochdi7/Web-Mini-Projects.git
+=======
+   git clone https://github.com/Rochdi7/Web-Mini-Projects.git
+>>>>>>> 8975dd3aabf0de0534e366ab6efbd8acde271be6
