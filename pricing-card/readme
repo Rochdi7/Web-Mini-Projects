@@ -1,0 +1,58 @@
+echo "# 🌟 Stylish Pricing Table Project
+
+Ce projet est une interface utilisateur élégante pour des tableaux de tarification dynamiques. Il utilise une combinaison de **HTML**, **CSS** et **Font Awesome** pour un design moderne et réactif.
+
+## 📋 Description
+
+Le projet présente trois options principales : **Starter**, **Professional**, et **Company**. Chaque option inclut des fonctionnalités spécifiques avec une interface utilisateur attrayante et facile à utiliser.
+
+## 🚀 Fonctionnalités
+
+- **Responsive Design** : Adapté pour les écrans de toutes tailles.
+- **Effets d'animation** : Transformations et transitions au survol.
+- **Cartes interactives** : Données claires et esthétiques sur les offres disponibles.
+- **Compatibilité multiplateforme** : Optimisé pour les navigateurs modernes.
+
+## 📦 Installation
+
+1. Clonez le dépôt :
+   \`\`\`bash
+   git clone https://github.com/Rochdi7/Web-Mini-Projects/PRICING-CARD.git
+   \`\`\`
+
+2. Ouvrez le fichier \`index.html\` dans votre navigateur.
+
+## 📂 Structure des fichiers
+
+- **index.html** : Structure HTML.
+- **style.css** : Fichier de style pour le design.
+- **assets/** : Icônes et fichiers multimédia.
+- **README.md** : Documentation.
+
+## 🔧 Technologies utilisées
+
+- HTML5
+- CSS3 avec des polices Google (Poppins, Lato)
+- Font Awesome (v6.5.0)
+
+## 🎨 Aperçu
+
+Voici un aperçu visuel du projet :
+
+![Appercu](https://i.postimg.cc/ZR2w34y1/pricing-table.png)
+
+### 🖼️ ScreenShots
+![Screen 1](https://i.postimg.cc/ZR2w34y1/pricing-table.png)
+![Screen 2](https://i.postimg.cc/V6d7dd5q/responive.png) 
+
+## 📞 Contact
+
+Pour toute question, veuillez contacter l'équipe du projet via [rochdi.karouali1234@mail.com](mailto:rochdi.karouali1234@mail.com).
+
+---
+
+✨ **Déployez avec style !** ✨
+" > README.md
+
+# Confirmation
+echo "README.md a été généré avec succès ! N'oubliez pas de remplacer les URLs des aperçus par vos propres liens."

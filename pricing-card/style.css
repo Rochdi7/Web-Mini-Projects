@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px;
+}
+.container{
+    max-width: 1090;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .card{
+    width: calc(33% - 20px);
+    background-color: #ffffff;
+    border: 2px solid #f0f0f5;
+    padding: 15px 30px 30px 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.14);
+}
+.container .card:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.container .card .top{
+    height: 130px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    padding: 12px 0 0 0;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+}
+.container .card .top .title{
+    color: #fff5f8;
+    font-size: 24px;
+    font-weight: 600;
+}
+.container .card .top .price-sec{
+    color: #fff5f8;
+    margin-top: 10px;
+}
+.container .card .top .price-sec .price{
+    font-size: 40px;
+}
+.container .card .info{
+    color: #6c757d;
+     margin-top: 20px;
+     font-size: 18px;
+
+}
+.container .card .details .plan{
+    background: #f8f9fa;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 13px;
+     margin-top: 20px;
+     position: relative;
+     border-radius: 10px;
+
+}
+.container .card .details .plan::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: -8px;
+    background: #ddd;
+}
+.container .card .plan i{
+    color: #2db94d;
+}
+.container .card .plan i.fa-xmark{
+    color: #cd3241;
+}
+.container .card button{
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    
+}
+.container .card button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:1000px) 
+{
+     .container .card{
+        width: calc(33% - 20px);
+        margin-bottom: 20px;
+     }    
+}
+@media (max-width:715px) 
+{
+     .container .card{
+        width: 100%;
+        margin-bottom: 20px;
+     }    
+}
