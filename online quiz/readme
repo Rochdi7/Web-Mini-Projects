@@ -1,0 +1,120 @@
+# =============================================
+#               📚 Stylish README               
+# =============================================
+
+# ---------------------------------------------
+# 🔥 Project: Online Quiz Application          
+# 👨‍💻 Author:  Rochdi        
+# ---------------------------------------------
+# A simple, engaging JavaScript-based online  
+# quiz game featuring a countdown timer, score 
+# tracking, and an intuitive user interface.   
+# ---------------------------------------------
+
+# 💡 Sections:                                  
+# 1. 🌟 Introduction                            
+# 2. ⚙️ Setup                                    
+# 3. 🚀 Usage                                    
+# 4. 🔍 Code Breakdown                          
+# ---------------------------------------------
+
+# 1. 🌟 Introduction:
+# =============================================
+# Welcome to the Online Quiz Application! 🎉
+# This project is a simple web-based quiz game,
+# designed to test users' knowledge on various 
+# topics. Built using JavaScript, HTML, and CSS,
+# it offers an easy-to-use interface where users
+# can answer multiple-choice questions while
+# tracking their progress and time. 
+# ---------------------------------------------
+
+# 2. ⚙️ Setup:
+# =============================================
+# To get started, make sure you have the following:
+# - 🌐 A modern web browser (e.g., Chrome, Firefox)
+# - 💻 A local development environment (e.g., VSCode)
+# ---------------------------------------------
+# Steps to Run:
+# 1. Clone the repository from GitHub.
+#    ```
+#    git clone https://github.com/Rochdi7/Web-Mini-Projects
+#    ```
+# 2. Navigate to the project folder.
+# 3. Open the `index.html` file in your web browser.
+# ---------------------------------------------
+
+# 3. 🚀 Usage:
+# =============================================
+# When you open the `index.html` file, the quiz will
+# start automatically. You will see a series of questions
+# with four possible answers. Answer each question by 
+# clicking one of the buttons. Use the "Next" button to
+# proceed to the next question. At the end, you'll see
+# your total score. 🔢
+# ---------------------------------------------
+
+# 4. 🔍 Code Breakdown:
+# =============================================
+# 4.1 📋 Declaration of Questions Array:        
+# ---------------------------------------------
+# The questions are stored in an array called `questions`,
+# where each object represents a quiz question and its 
+# possible answers.
+#
+# Example:                                     
+# ---------------------------------------------
+# ```javascript
+# const questions = [                          
+#   { question: "What is the capital of France?",
+#     answers: [                               
+#       {text: "Lille", correct: false},      
+#       {text: "Paris", correct: true},       
+#       {text: "Marseille", correct: false},  
+#     ]                                        
+#   }
+# ];
+# ```
+# ---------------------------------------------
+
+# 4.2 🛠️ Variables and Constants:
+# ---------------------------------------------
+# Several elements are captured from the DOM, such as:
+# - `questionElement`: Displays the current question.
+# - `answersButtons`: Holds the answer buttons.
+# - `timerElement`: Displays elapsed time. ⏳
+# ---------------------------------------------
+
+# 4.3 ⚙️ Function Declarations:
+# ---------------------------------------------
+# - `startTimer()`: Starts a timer for the quiz to track 
+#   time elapsed during the game.
+# - `showQuestion()`: Displays the current question and 
+#   possible answers to the user.
+# - `selectAnswer()`: Handles the logic when a user selects
+#   an answer, including determining if it's correct and 
+#   updating the UI accordingly.
+# - `totheNextQuestion()`: Moves to the next question when
+#   the "Next" button is clicked.
+# - `showScore()`: Displays the final score at the end of 
+#   the quiz. 🎉
+# ---------------------------------------------
+
+# 4.4 🎨 Styling and User Experience:
+# ---------------------------------------------
+# - The interface is styled with CSS to provide an intuitive
+#   and user-friendly experience.
+# - Buttons are styled to reflect user actions (e.g., correct
+#   answers are highlighted in green, incorrect answers in red).
+# ---------------------------------------------
+
+# 📸 SCREENSHOTS 
+# ---------------------------------------------
+# ![Online Quiz](https://i.postimg.cc/J4JctkGZ/online-quiz.gif)
+
+# 🔗 Links & Resources:
+# =============================================
+# - Documentation: Refer to `README.md` in the project folder.
+# ---------------------------------------------
+
+# 🚀 Happy Quizzing! 🎉
