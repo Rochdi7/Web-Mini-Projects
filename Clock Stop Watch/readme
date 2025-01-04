@@ -28,7 +28,7 @@ The clock face is presented using SVG elements to provide a clean and stylish re
 1. Clone the repository:
    
    \`\`\`bash
-   git clone <repository-url>
+   git clone https://github.com/Rochdi7/Web-Mini-Projects
    \`\`\`
 
 2. Open the \`index.html\` file in your browser:
