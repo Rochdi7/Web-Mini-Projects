@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <h1>QR Code Generator</h1>
+  <div class="container">
+    <div class="input-wrapper">
+      <i class="fas fa-link"></i>
+      <input type="text" id="textInput" placeholder="Enter text or URL" />
+    </div>
+    <button id="generateBtn">Generate QR Code</button>
+    <div id="qrcode">Your QR Code will appear here</div>
+  </div>
+  <footer>Made with ❤️ by Rochdi</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
