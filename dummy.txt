@@ -2,3 +2,4 @@ Initializing dummy file
 Update for Update age calculator project with new functionality
 Update for Enhance clock stop-watch UI
 Update for Countdown to 2025 project finalized
+Update for Height converter project: added error handling
