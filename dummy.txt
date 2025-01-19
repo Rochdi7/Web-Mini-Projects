@@ -7,3 +7,4 @@ Update for Dropdown menu project: improved responsiveness
 Update for Password generator project: added advanced options
 Update for FAQ collapse component: minor bug fixes
 Update for Update age calculator project with new functionality
+Update for Enhance clock stop-watch UI
