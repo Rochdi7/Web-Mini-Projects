@@ -16,3 +16,4 @@ Update for FAQ collapse component: minor bug fixes
 Update for Initial commit for Temperature Converter project
 Update for Temperature Converter: implemented basic conversion logic
 Update for Temperature Converter: added Bootstrap for responsive UI
+Update for Temperature Converter: added event handling for temperature conversion
