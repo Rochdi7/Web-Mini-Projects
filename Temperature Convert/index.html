@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="section">
+        <h1 class="heading">Temperature Converter using Vanilla JS</h1>
+        <h4 class="subheading">
+          CELSIUS <ion-icon name="repeat-outline"></ion-icon> FAHRENHEIT <ion-icon name="repeat-outline"></ion-icon> KELVIN
+        </h4>
+        <hr />
+        <div class="input-container">
+          <input type="number" id="input" class="input-field" placeholder="Enter Temperature" />
+          <select id="from" class="select-field">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+          <div class="convert-button" id="convert-to" disabled>
+            <ion-icon name="play-forward-outline"></ion-icon>
+          </div>
+          <select id="to" class="select-field">
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="celsius">Celsius</option>
+          </select>
+        </div>
+        <div id="converted-value" class="converted-value"></div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
