@@ -10,6 +10,10 @@ commit_messages=(
     "Dropdown menu project: improved responsiveness"
     "Password generator project: added advanced options"
     "FAQ collapse component: minor bug fixes"
+    "Initial commit for Temperature Converter project"
+    "Temperature Converter: implemented basic conversion logic"
+    "Temperature Converter: added Bootstrap for responsive UI"
+    "Temperature Converter: added event handling for temperature conversion"
 )
 
 # Create a dummy file to modify
