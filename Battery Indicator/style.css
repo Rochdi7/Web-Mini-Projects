@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* CSS Variables for Theme Colors */
+:root {
+  --bg-color: #f5f7fa;
+  --card-bg: #ffffff;
+  --border-color: #e0e0e0;
+  --primary: #3498db;
+  --battery-bg: #ecf0f1;
+  --battery-border: #bdc3c7;
+  --level-gradient: linear-gradient(90deg, #f1c40f, #2ecc71);
+  --text-color: #333;
+}
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  margin: 0;
+}
+
+/* Section Styling */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background: var(--bg-color);
+}
+
+/* Decorative Circles */
+section::before,
+section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: var(--primary);
+  opacity: 0.1;
+}
+
+section::before {
+  width: 200px;
+  height: 200px;
+  top: -50px;
+  left: -50px;
+}
+
+section::after {
+  width: 300px;
+  height: 300px;
+  bottom: -100px;
+  right: -100px;
+}
+
+/* Dark Mode for Section */
+section.dark {
+  background: #2c3e50;
+}
+
+section.dark::before,
+section.dark::after {
+  background: #34495e;
+  opacity: 0.15;
+}
+
+/* Box/Card Styling */
+.box {
+  width: 260px;
+  padding: 20px;
+  background: var(--card-bg);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+  text-align: center;
+  z-index: 1;
+}
+
+/* Dark Mode for Box */
+section.dark .box {
+  background: #34495e;
+  border-color: #2c3e50;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Styling */
+.content h3 {
+  color: var(--text-color);
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+section.dark .content h3 {
+  color: #ecf0f1;
+}
+
+/* Battery Shape */
+.batteryShape {
+  position: relative;
+  width: 160px;
+  height: 70px;
+  margin: 0 auto 20px;
+  border: 2px solid var(--battery-border);
+  border-radius: 8px;
+  background: var(--battery-bg);
+}
+
+section.dark .batteryShape {
+  border-color: #ecf0f1;
+  background: #2c3e50;
+}
+
+/* Battery Terminal */
+.batteryShape::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 20px;
+  background: var(--battery-border);
+  border-radius: 2px;
+}
+
+section.dark .batteryShape::before {
+  background: #ecf0f1;
+}
+
+/* Battery Highlight Overlay */
+.batteryShape::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Battery Level */
+.level {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background: transparent;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.percentage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /* The width can be updated dynamically via JS */
+  width: 50%;
+  background: var(--level-gradient);
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+/* Battery Percentage Text */
+.percent {
+  font-size: 2rem;
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+section.dark .percent {
+  color: #ecf0f1;
+}
+
+/* Toggle Button */
+.toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: var(--card-bg);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  z-index: 2;
+}
+
+.toggle::before {
+  content: "\f185";
+  font-family: "FontAwesome";
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+/* Toggle Button Dark Mode */
+section.dark .toggle {
+  background: #2c3e50;
+  border-color: #ecf0f1;
+}
+
+section.dark .toggle::before {
+  content: "\f186";
+  color: #e74c3c;
+}
