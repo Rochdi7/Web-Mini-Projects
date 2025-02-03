@@ -3,17 +3,8 @@
 
 # List of commit messages for projects
 commit_messages=(
-    "Update age calculator project with new functionality"
-    "Enhance clock stop-watch UI"
-    "Countdown to 2025 project finalized"
-    "Height converter project: added error handling"
-    "Dropdown menu project: improved responsiveness"
-    "Password generator project: added advanced options"
-    "FAQ collapse component: minor bug fixes"
-    "Initial commit for Temperature Converter project"
-    "Temperature Converter: implemented basic conversion logic"
-    "Temperature Converter: added Bootstrap for responsive UI"
-    "Temperature Converter: added event handling for temperature conversion"
+    "readme add new projects"
+    "updated readme"
 )
 
 # Create a dummy file to modify
